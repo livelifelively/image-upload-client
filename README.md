@@ -1,4 +1,4 @@
-# Slintel Assignment
+# Image upload client
 
 * npm install
 * npm run compile:sass
