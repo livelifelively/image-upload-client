@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-import http from './http'
+import http from '@/services/http'
 
 export default {
   /**

@@ -1,8 +1,8 @@
 import React, {Component} from 'react'
 
-import DefaultLayout from '../../layouts/default-layout'
-import Header from '../../components/header'
-import Content from '../../components/content'
+import DefaultLayout from '@/layouts/default-layout'
+import Header from '@/components/header'
+import Content from '@/components/content'
 import FileSelector from './partials/file-selector'
 import ImageCropper from './partials/image-cropper'
 import ListImages from './partials/list-images'

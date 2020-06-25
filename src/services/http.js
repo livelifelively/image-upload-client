@@ -1,5 +1,5 @@
 import axios from 'axios'
-import { AppError } from '../services/error'
+import { AppError } from '@/services/error'
 
 function throwIfHasError (response) {
   if (response.data.statusCode !== 200) {

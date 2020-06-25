@@ -1,4 +1,4 @@
-import Upload from '../../services/upload'
+import Upload from '@/services/upload'
 
 /**
  * State corresponding to Image Selection
