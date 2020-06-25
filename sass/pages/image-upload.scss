@@ -1,0 +1,75 @@
+@import "../abstract/variables";
+
+.file-selector {
+  height: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $color-green;
+  position: relative;
+  input {
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    z-index: 2;
+  }
+  &__facade {
+    position: absolute;
+    z-index: 0;
+  }
+}
+
+.content__title {
+  position: relative;
+}
+.reset-state {
+  position: absolute;
+  right: 20px;
+}
+
+.resolution-selector {
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-cropper {
+  display: flex;
+
+  &__crop-zone {
+    width: 60rem;
+    margin-right: 2rem;
+  }
+
+  &__preview-zone {
+    align-self: flex-start;
+    &-title {
+      margin-bottom: 1.5rem;
+    }
+    img {
+      margin: auto;
+      margin-bottom: 1.5rem;
+      display: block;
+      border: 15px solid $color-gray;
+      border-radius: 10px;
+    }
+    button {
+      display: block;
+      width: 100%;
+      margin: auto;
+    }
+  }
+}
+
+.images-list {
+  &--unit {
+    a {
+      display: block;
+      margin-bottom: 1.5rem;
+      color: $color-orange;
+      text-decoration: none;
+    }
+  }
+}
+
